@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Rubik:wght@700&display=swap');
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1225px;
+    margin: 0 auto;
+}
+
+@import 'blocks/navigation';
+@import 'blocks/header';
+@import 'blocks/buttons';
